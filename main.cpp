@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
 int main() {
-    cout << "Yo Solo se que no se nada" ;
+    cout << "Gracias a dios ya es viernes" ;
     return 0;
 }
