@@ -7,6 +7,7 @@ int main() {
     string resultado= contrasena.length() >= 8 ? "Buena contraseña" : "CHico malo";
     cout << resultado;
 
+
     return 0;
     cout << "Gracias a dios ya es viernes" << endl;
     string categoria,resultados;
