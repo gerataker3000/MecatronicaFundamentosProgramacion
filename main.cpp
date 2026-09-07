@@ -1,6 +1,8 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 int main() {
+    return 0;
     cout << "Gracias a dios ya es viernes" << endl;
     string categoria;
     cout << "Ingresa un categoria: ";
