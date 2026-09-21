@@ -14,3 +14,4 @@ add_executable(ifElse Parcial1/ifElse.cpp)
 add_executable(ifAnidado Parcial1/ifAnidado.cpp)
 add_executable(IfTernario Parcial1/IfTernario.cpp)
 
+add_executable(CicloForArrays Parcial2/CicloForArrays.cpp)
