@@ -31,25 +31,14 @@ int main() {
     // If else retirar de un banco
     // Declaro dos variables double en la misma línea y solo saldo empieza en 4000 mientras retiro espera una entrada
     double saldo = 4000,retiro;
-    // Muestro el texto "Saldo: " y después el valor de saldo y endl agrega un salto de línea y vacía el búfer de salida
     cout << "Saldo: " << saldo << endl;
-    // Muestro el texto "Cuanto vas a retirar: " y endl agrega un salto de línea y vacía el búfer de salida
     cout << "Cuanto vas a retirar: "<< endl;
-    // Leo del teclado y guardo la entrada en retiro
     cin >> retiro;
-    // Reviso si el retiro es menor o igual al saldo aunque esta condición por sí sola también acepta valores negativos
     if (retiro <= saldo) {
-        // Esta forma comentada hace la misma resta y asignación que saldo menos igual retiro
-        //saldo = saldo - retiro;
-        // Resto el retiro al saldo y guardo el nuevo valor en la misma variable
         saldo -=  retiro;
-        // Muestro el texto "Saldo: " y después el valor de saldo y endl agrega un salto de línea y vacía el búfer de salida
         cout << "Saldo: " << saldo << endl;
-    // Cierro el bloque anterior y abro la alternativa que se ejecuta cuando no se cumple ninguna condición anterior de esta cadena
-    }else {
-        // Muestro el texto "Ponte a chambear :D noob" y endl agrega un salto de línea y vacía el búfer de salida
-        cout << "Ponte a chambear :D noob" << endl;
-    // Esta llave cierra el bloque que estaba abierto
-    }
-// Esta llave cierra el bloque que estaba abierto
+     }else {
+         cout << "Ponte a chambear :D noob" << endl;
+     }
+
 }
