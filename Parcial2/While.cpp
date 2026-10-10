@@ -1,12 +1,17 @@
-//
-// Created by LegoC on 02/10/2026.
-//
 #include <iostream>
+#include <string>
+#include <stdexcept>
 using namespace std;
-int main () {
-    int posicion = 10;
-    while (posicion > 0) {
-        posicion +=10;
-        cout << posicion << endl;
-    }
+
+int main() {
+    string entrada;
+
+    cout << "Edad del cazador: ";
+    getline(cin, entrada);
+
+    int edad = stoi(entrada);
+    cout << "Edad registrada: " << edad << endl;
+
+    cout << "Registro finalizado";
+    return 0;
 }
