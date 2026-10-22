@@ -14,5 +14,12 @@ add_executable(ifElse Parcial1/ifElse.cpp)
 add_executable(ifAnidado Parcial1/ifAnidado.cpp)
 add_executable(IfTernario Parcial1/IfTernario.cpp)
 
-add_executable(CicloForArrays Parcial2/CicloForArrays.cpp)
+add_executable(CicloForArrays Parcial2/CicloForArrays.cpp
+        POO/Pelicula.cpp
+        POO/Pelicula.h)
 add_executable(Metodos Parcial2/Metodos.cpp)
+add_executable(libreria Parcial3/libreria.cpp
+        Parcial3/Pelicula.cpp
+        Parcial3/Pelicula.h)
+add_executable(Pelciula Parcial3/Pelicula.cpp Parcial3/Pelicula.h)
+add_executable(Pelicula POO/Pelicula.cpp POO/Pelicula.h)
