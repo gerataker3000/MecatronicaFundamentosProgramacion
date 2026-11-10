@@ -18,6 +18,12 @@ public:
         std::cout << titulo << '\n';
         std::cout << duracion << " minutos\n";
     }
+
+    void mostrarInfo(int numeroRegresos) const {
+        std::cout << titulo << '\n';
+        std::cout << duracion << " minutos\n";
+        std::cout << numeroRegresos << " ya no lo haga\n";
+    }
 };
 
 

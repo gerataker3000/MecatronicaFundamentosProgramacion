@@ -2,14 +2,16 @@
 
 int main() {
     // Crear el objeto
-    Pelicula pelicula;
+    Pelicula ximenaMelani;
 
     // Asignar sus atributos
-    pelicula.titulo = "Van Helsing";
-    pelicula.duracion = 131;
+    ximenaMelani.titulo = "Relacion Terminada";
+    ximenaMelani.duracion = 4; // meses XD
 
     // Llamar al método
-    pelicula.mostrarInfo();
+    ximenaMelani.mostrarInfo();
+    ximenaMelani.mostrarInfo(2);
+
 
     return 0;
 }
